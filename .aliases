@@ -1,0 +1,10 @@
+# MP3 Extractor Shell Aliases
+# Add these to your ~/.zshrc or ~/.bashrc:
+#
+# source /Users/tonykipkemboi/mp3extractor/.aliases
+
+alias mp3dev='cd /Users/tonykipkemboi/mp3extractor && ./dev.sh'
+alias mp3start='cd /Users/tonykipkemboi/mp3extractor && make dev'
+alias mp3stop='cd /Users/tonykipkemboi/mp3extractor && make stop'
+alias mp3logs='cd /Users/tonykipkemboi/mp3extractor && tail -f frontend.log'
+alias mp3clean='cd /Users/tonykipkemboi/mp3extractor && make clean'

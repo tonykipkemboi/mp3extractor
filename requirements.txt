@@ -1,0 +1,12 @@
+# MP3 Extractor Dependencies
+
+# Required dependencies
+tqdm>=4.65.0              # Progress bars for conversions
+
+# Optional dependencies (graceful degradation if not installed)
+PyYAML>=6.0.1             # YAML config file support (JSON fallback available)
+mutagen>=1.47.0           # Full metadata/ID3 tag support (ffmpeg fallback available)
+
+# Development dependencies (not needed for runtime)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
